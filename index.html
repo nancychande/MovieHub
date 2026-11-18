@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MovieHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>MovieHub</h1>
+    <nav>
+        <button data-page="home">Home</button>
+        <button data-page="watchlist">Watchlist</button>
+        <button data-page="about">About</button>
+    </nav>
+</header>
+<main>
+    <section id="home" class="page">
+        <h2>Discover Movies</h2>
+        <input id="search" placeholder="Search a movie...">
+        <button id="searchBtn">Search</button>
+        <div id="movies"></div>
+    </section>
+
+    <section id="watchlist" class="page">
+        <h2>My Watchlist</h2>
+        <div id="savedMovies"></div>
+    </section>
+
+    <section id="about" class="page">
+    <h2>About MovieHub</h2>
+    <p>MovieHub is a movie search website where users can explore different movies and discover their favourite films.</p>
+
+    <h3>What We Offer</h3>
+    <p>Search movies, view posters, read movie details and save your favourite films to your watchlist.</p>
+
+    <h3>Our Technology</h3>
+    <p>HTML, CSS and JavaScript with the OMDb movie API.</p>
+<h3>Developer</h3>
+<p>Created by: Nancy Chande</p>
+<p>Course: B.Tech Computer Science Engineering</p>
+<p>Project: Movie Search Cards</p>
+<p>College: ITM Skills University</p>
+    </section>
+</main>
+<div id="modal" class="modal">
+    <div id="modalContent"></div>
+    <button id="closeModal">Close</button>
+</div>
+<script src="script.js"></script>
+<footer>
+    <p>© 2026 MovieHub | Developed by Nancy Chande</p>
+    <p>B.Tech CSE | ITM Skills University</p>
+</footer>
+</body>
+</html>
